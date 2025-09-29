@@ -3,3 +3,6 @@ authors = ["herbert"]
 language = "en"
 src = "src"
 title = "Test"
+
+[preprocessor.plantuml]
+plantuml-cmd="http://localhost:8080"
