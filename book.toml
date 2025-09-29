@@ -1,0 +1,5 @@
+[book]
+authors = ["herbert"]
+language = "en"
+src = "src"
+title = "Test"
