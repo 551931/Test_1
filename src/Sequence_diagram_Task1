@@ -1,0 +1,18 @@
+# Sequence diagram Task1-Task2
+```plantuml
+@startuml
+participant Werknemer
+Participant Werkgever           
+
+
+
+Werkgever -> Werknemer: ik heb werk voor je 
+Werknemer -> Werkgever : Oke super 
+Werknemer -> Werkgever : Wat voor werk is het? 
+Werkgever -> Werknemer: het is laswerk 
+Werkgever -> Werknemer: wanneer kan je dit doen? 
+Werknemer -> Werkgever: zaterdag. 
+
+@enduml
+
+```

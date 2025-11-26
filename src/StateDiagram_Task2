@@ -1,0 +1,23 @@
+# state diagram
+
+
+
+```plantuml
+@startuml
+
+[*] --> Werkidle
+Werkidle --> Werk_gaat_gebeuren : er word iemand geregeld die het gaat doen
+Werk_gaat_gebeuren --> Werk_word_gedaan : er is een persoon naar het werk toegegaan
+ Werk_word_gedaan --> Werk_is_afgerond : de persoon is klaar 
+ Werk_is_afgerond --> [*]
+
+@enduml
+
+```
+
+
+
+
+
+
+

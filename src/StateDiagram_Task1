@@ -1,0 +1,21 @@
+# statediagram
+
+```plantuml
+@startuml
+
+[*] --> Werkeloos
+Werkeloos --> Open_voor_werk : verander state of mind
+Open_voor_werk --> Werk_aan_het_zoeken : maak tijd vrij
+Werk_aan_het_zoeken --> Werk_aangeboden : werkgevers vragen om werk
+Werk_aangeboden --> Arbeider : werkgever geeft werk 
+Arbeider --> [*]
+
+@enduml
+
+
+
+
+
+```
+
+

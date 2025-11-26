@@ -1,0 +1,17 @@
+# Seqeunce diagram Functie-Task
+
+
+```plantuml
+@startuml
+participant Werknemer
+Participant Lassen           
+
+Werknemer -> Lassen : de onderdelen moeten in elkaar worden gelast
+Lassen -> Werknemer : onderdelen worden gelast 
+
+
+@enduml
+
+```
+
+

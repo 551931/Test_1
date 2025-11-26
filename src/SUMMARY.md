@@ -1,17 +1,7 @@
-# Chapter 1
+# Summary
 
-
-
-```plantuml
-@startuml
-participant Function 
-Participant GVL
-participant Sensor
-
-Function -> GVL : The color of the detected object is black
-GVL -->  Sensor : You have detected the color black
-
-
-@enduml
-
-```
+- [Chapter 1](./chapter_1.md)
+- [Sequence diagram Task1-Task2](./Sequence_diagram_Task1)
+- [Sequence diagram Functie-Task](./Sequence_diagram_Task2)
+- [state diagram](./StateDiagram_Task1)
+- [state diagram](./StateDiagram_Task2)
