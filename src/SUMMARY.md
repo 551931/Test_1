@@ -1,3 +1,17 @@
-# Summary
+# Chapter 1
 
-- [Chapter 1](./chapter_1.md)
+
+
+```plantuml
+@startuml
+participant Function 
+Participant GVL
+participant Sensor
+
+Function -> GVL : The color of the detected object is black
+GVL -->  Sensor : You have detected the color black
+
+
+@enduml
+
+```
