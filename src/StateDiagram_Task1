@@ -1,14 +1,16 @@
-# statediagram
+# statediagram piet 
 
 ```plantuml
 @startuml
 
-[*] --> Werkeloos
-Werkeloos --> Open_voor_werk : verander state of mind
-Open_voor_werk --> Werk_aan_het_zoeken : maak tijd vrij
-Werk_aan_het_zoeken --> Werk_aangeboden : werkgevers vragen om werk
-Werk_aangeboden --> Arbeider : werkgever geeft werk 
-Arbeider --> [*]
+
+
+
+[*] --> Innit
+Innit --> Piet_met_tube: pakt een tube op 
+Piet_met_tube --> Piet_met_volle_tube : vult de tube 
+Piet_met_volle_tube --> Piet_met_tube_met_dopje: draait dopje op de tube 
+Piet_met_tube_met_dopje --> [*] 
 
 @enduml
 

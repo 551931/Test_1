@@ -1,22 +1,19 @@
-# state diagram
+# state diagram tube 
 
 
 
 ```plantuml
 @startuml
 
-[*] --> Werkidle
-Werkidle --> Werk_gaat_gebeuren : er word iemand geregeld die het gaat doen
-Werk_gaat_gebeuren --> Werk_word_gedaan : er is een persoon naar het werk toegegaan
- Werk_word_gedaan --> Werk_is_afgerond : de persoon is klaar 
- Werk_is_afgerond --> [*]
+[*] --> Innit
+Innit --> Tube_in_piets_hand : tube word opgepakt 
+Tube_in_piets_hand --> volle_tube : Tube word gevult 
+volle_tube --> tube_met_dopje: dopje op tube draaien
+tube_met_dopje --> [*]
 
 @enduml
 
 ```
-
-
-
 
 
 

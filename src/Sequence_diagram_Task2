@@ -3,11 +3,20 @@
 
 ```plantuml
 @startuml
-participant Werknemer
-Participant Lassen           
+participant Piet 
+Participant Tube           
+Participant Voorraad 
 
-Werknemer -> Lassen : de onderdelen moeten in elkaar worden gelast
-Lassen -> Werknemer : onderdelen worden gelast 
+
+Piet -> Tube: pakt de tube op
+Piet -> Piet: Voelt de tube 
+Piet -> Tube: Vult de tube 
+& Piet -> Voorraad: vult de tube 
+Voorraad -> Voorraad: Volume uit de voorraad
+Tube-> Tube: Tube zit vol
+
+
+
 
 
 @enduml
