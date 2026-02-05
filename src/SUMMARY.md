@@ -5,3 +5,5 @@
 - [Sequence diagram Functie-Task](./Sequence_diagram_Task2)
 - [state diagram](./StateDiagram_Task1)
 - [state diagram](./StateDiagram_Task2)
+- [state diagram](./StateDiagram_Function)
+- 
