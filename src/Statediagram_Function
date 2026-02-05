@@ -7,12 +7,11 @@
 
 
 [*] --> Innit
-Innit --> Piet_met_tube: pakt een tube op 
-Piet_met_tube --> Piet_met_volle_tube : vult de tube 
-Piet_met_volle_tube --> Piet_met_tube_met_dopje: draait dopje op de tube 
-Piet_met_tube_met_dopje --> [*] 
-
-@enduml
+Innit --> Aanvraag_gedaan : Piet drukt op een knopje 
+Aanvraag_gedaan --> Magazijn_bezig : Magazijn gaat bezig
+Magazijn_bezig --> Magazijn_klaar : Magazijn vult de tube
+Magazijn_klaar --> [*] 
+ @enduml
 
 
 

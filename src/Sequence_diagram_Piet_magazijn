@@ -1,4 +1,5 @@
-# Sequence diagram Task1-Task2
+# Sequence diagram Piet-Magazijn
+
 ```plantuml
 @startuml
  
@@ -6,7 +7,7 @@
 participant Piet
 Participant Magazijn 
 
-Piet -> Magazijn: drukt op knopje voor tube 
+Piet -> Magazijn: drukt op knopje voor tub
 Magazijn -> Magazijn: haalt tube op 
 Magazijn -> Piet : geeft een tube
 Piet -> Magazijn: drukt op knopje voor dopje
