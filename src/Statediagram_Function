@@ -1,0 +1,21 @@
+# statediagram function
+
+```plantuml
+@startuml
+
+
+
+
+[*] --> Innit
+Innit --> Piet_met_tube: pakt een tube op 
+Piet_met_tube --> Piet_met_volle_tube : vult de tube 
+Piet_met_volle_tube --> Piet_met_tube_met_dopje: draait dopje op de tube 
+Piet_met_tube_met_dopje --> [*] 
+
+@enduml
+
+
+
+
+
+```
